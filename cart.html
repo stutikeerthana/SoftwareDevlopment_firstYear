@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - E-RESTAURANT</title>
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <section id="header">
+        <a href="index.html"><img src="Aldenaire.png" width="150" height="150" alt="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="cart.html"><i class="fas fa-shopping-cart"></i> Cart</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="cart-container">
+        <div class="cart-header">
+            <h1>Your Cart</h1>
+            <button id="clear-cart" class="btn">Clear Cart</button>
+        </div>
+
+        <div id="cart-items" class="cart-items">
+            <!-- Cart items will be dynamically inserted here -->
+        </div>
+
+        <div class="cart-summary">
+            <p id="total-price">Total: ₹0</p>
+            <button id="checkout-btn" class="btn">Proceed to Checkout</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h3>About Us</h3>
+                <p>We offer freshly prepared, flavorful meals with the finest ingredients. Whether you're in the mood for a quick snack or a multi-course meal, we've got something for everyone.</p>
+            </div>
+
+            <div class="footer-section contact">
+                <h3>Contact Info</h3>
+                <p>Visit us at: IIIT NR, Naya Raipur, Chhattisgarh, India</p>
+                <p>Phone: +91 xxxxxxxxxx</p>
+            </div>
+
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 E-RESTAURANT. All Rights Reserved.</p>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a></p>
+        </div>
+    </footer>
+
+    <!-- Reference the external JS file -->
+    <script src="cart.js"></script>
+</body>
+</html>

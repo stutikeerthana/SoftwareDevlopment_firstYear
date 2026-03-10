@@ -1,0 +1,7 @@
+[
+    { "id": 1, "name": "Chilli Chicken", "price": 130 },
+    { "id": 2, "name": "Paneer Butter Masala", "price": 140 },
+    { "id": 3, "name": "Dal Makhani", "price": 90 },
+    { "id": 4, "name": "Fried Noodles", "price": 60 }
+  ]
+  
